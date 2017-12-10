@@ -217,17 +217,10 @@ a {
 	margin: 0px 16px 16px 0px;
 }
 
-.figcaption{
-
-	background-color: white;
-	
-}
-
 .department{
 	width:100%;
 	height:auto;
 	background-color: white;
-	margin: 16px 0px 16px 16px; 
 }
 
 .course_text{
@@ -235,7 +228,6 @@ a {
 	flex-wrap: wrap;
 	width:100%;
 	background-color: white;
-	margin: 8px 16px;
 }
 .coursetitle{ /*
 	flex:1;
@@ -243,10 +235,9 @@ a {
 	flex-wrap: wrap;
 	word-wrap: normal;
 	white-space: normal;*/
-	width:531.99px;
+	width:65%;
 	height:auto;
 	background-color: white;
-	margin: 8px 16px;
 }
 
 
