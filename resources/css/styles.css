@@ -4,7 +4,7 @@ html {
 }
 
 h1 {
-  font-size: 3.8rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -84,9 +84,8 @@ a {
 }
 
 .campus_image {
-  max-width: 100%;
-  max-height: auto;
-  display: block;
+
+  display: flex;
 	/*
     height: 500px;
     width: 60%;
@@ -96,15 +95,26 @@ a {
 	
 	background-size:cover;*/
 }
+.campus_image img {
+  width: 100%;
+  height: auto;
+}
 
 .campus_right_pane {
   display:flex;
-  height: 500px;
+  height: auto;
   width: 40%;
   padding-left:24px;
   flex-direction: column;
   align-items:center;
-  justify-content:space-around;
+  justify-content:center;
+}
+
+.main_msg {
+	margin: 16px 0px;
+}
+.msgindetail{
+	margin: 16px 0px;
 }
 
 .startbutton{
@@ -116,6 +126,7 @@ a {
 	font-size: 2rem;
 	width:70%;
 	justify-content:center;
+	cursor: pointer;
 }
 
 /****** 2nd section ***********/
@@ -126,12 +137,14 @@ a {
 .info_left {
   width: 60%;
   height: auto;
+  overflow:hidden;
 }
 
 .info_left img {
-  max-width: 100%;
+  max-width: 95%;
   max-height: auto;
   display: block;
+  
 }
 
 .main_info  {
@@ -141,7 +154,7 @@ a {
 	background-color: white;
 	color: #4A4A4A;
 	font-size: 4rem;
-	width:60%;
+	width:100%;
 	justify-content:center;
 }
 
@@ -152,8 +165,13 @@ a {
 	background-color:white;
 	color: #7C7C7C;
 	font-size: 2rem;
-	width:60%;
+	width:100%;
 	justify-content:center;
+}
+.info_right {
+  width: 40%;
+  height: auto;
+  overflow:hidden;
 }
 
 .information {
