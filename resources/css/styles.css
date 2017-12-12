@@ -31,6 +31,10 @@ header {
 line-height:32px;
 }
 
+.mobile {
+	display: none;	
+}
+
 body{
 	position: relative;
 	top: 65px;
@@ -274,10 +278,65 @@ figcaption{
 }
 
 footer {
+	width:100%;
 	display:flex;
+	justify-content: space-between;
 }
 
-.footerlinks  {
-display:flex;
-	justify-content: right;
+.footerlinks a {
+	margin: 0px 8px;
+	
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait)  {
+
+p.first_name {
+    display: none;
+  }
+p.last_name{
+    display: none;
+}   
+
+.mobile {
+	display: block;	
+}
+
+.navig {
+    display: none;
+}
+	
+.left_header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}	
+	
+ .oncampus {
+    flex-direction: column;
+  }
+	
+.campus_image {
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+}
+.campus_image img {
+  width: 100%;
+  height: auto;
+}
+	
+.campus_right_pane {
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding-left: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}	
+	
+  .info_left  {
+    display: none;
+  }
 }
