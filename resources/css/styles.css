@@ -79,27 +79,18 @@ a {
 /* first section */
 .oncampus {
 	display:flex;
-	width:100%;
 	background-color: #D8D8D8;
 }
-
 .campus_image {
-
-  display: flex;
-	/*
-    height: 500px;
-    width: 60%;
-	background-image:url("../../resources/images/banner.jpg");
-	background-repeat:no-repeat;
-	background-position:center center;
 	
-	background-size:cover;*/
+	width:60%;
+	height:auto;
+	overflow:hidden;
 }
 .campus_image img {
-  width: 100%;
+  width: 95%;
   height: auto;
 }
-
 .campus_right_pane {
   display:flex;
   height: auto;
@@ -109,14 +100,12 @@ a {
   align-items:center;
   justify-content:center;
 }
-
 .main_msg {
 	margin: 16px 0px;
 }
 .msgindetail{
 	margin: 16px 0px;
 }
-
 .startbutton{
 	display:flex;
 	padding-top:8px;
@@ -128,23 +117,19 @@ a {
 	justify-content:center;
 	cursor: pointer;
 }
-
 /****** 2nd section ***********/
 .online{
 	display:flex;
 }
-
 .info_left {
   width: 60%;
   height: auto;
   overflow:hidden;
 }
-
 .info_left img {
   max-width: 95%;
   max-height: auto;
   display: block;
-  
 }
 
 .main_info  {
@@ -283,5 +268,16 @@ figcaption{
 	padding: 8px 16px 24px 16px;
 }
 
+/****** 4th section ***********/
+.thesis{
+	display:flex;
+}
 
+footer {
+	display:flex;
+}
 
+.footerlinks  {
+display:flex;
+	justify-content: right;
+}
