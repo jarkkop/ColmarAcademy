@@ -173,8 +173,12 @@ a {
 
 .info_pic {
  width: 35%;
-
 }
+
+.info_pic .mobile {
+  display: none;
+}
+
 .info_pic img {
  
   max-width: 100%;
@@ -335,8 +339,54 @@ p.last_name{
     align-items: center;
     justify-content: center;
 }	
+
+.online {
+    display: block;
+}
 	
-  .info_left  {
+.info_left  {
     display: none;
   }
+
+.information {
+	flex-direction: column;
+}
+  
+
+
+.info_right {
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+}
+
+.info_pic {
+    width: 100%;
+}
+
+
+
+.info_pic .desktop {
+		display: none;
+}
+
+.info_pic .mobile {
+		display: block;
+}
+
+.info_pic img {
+ 
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info_data {
+  display:flex;
+  width: 100%;
+  padding-left:24px;
+  
+  align-items:center;
+}
+
 }
