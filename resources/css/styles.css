@@ -125,15 +125,14 @@ a {
 .online{
 	display:flex;
 }
-.info_left {
+.course.info_left  {
   width: 60%;
   height: auto;
   overflow:hidden;
 }
-.info_left img {
-  max-width: 95%;
-  max-height: auto;
-  display: block;
+.course.info_left img {
+  width: 95%;
+  height: auto;
 }
 
 .main_info  {
@@ -157,7 +156,7 @@ a {
 	width:100%;
 	justify-content:center;
 }
-.info_right {
+.course.info_right {
   width: 40%;
   height: auto;
   overflow:hidden;
@@ -357,7 +356,7 @@ p.last_name{
     display: block;
 }
 	
-.info_left  {
+.course.info_left  {
     display: none;
   }
 
@@ -367,7 +366,7 @@ p.last_name{
   
 
 
-.info_right {
+.course.info_right  {
   width: 100%;
   height: auto;
   overflow:hidden;
@@ -430,7 +429,6 @@ p.last_name{
 
 .start_learning {
 	background-color: #F5F4F5;
-	
 }
 
 .course_text, .coursetitle{
@@ -441,16 +439,33 @@ display: none;
     width: 100%;
 	background-color: #D8D8D8;
 	padding: 16px 0px 24px 16px;
-	
 	margin-bottom:8px;
-	
 }
 .framesettings3 {
 	background-color: #D8D8D8;
 }
+
 figcaption {
     height: auto;
     
+}
+
+
+
+.sample.info_right {
+ display: none;
+}
+
+.thesis .info_text {
+display: none;
+}
+
+.thesis .info_by {
+display: none;
+}
+
+.footerlinks {
+display: none;
 }
 
 }
